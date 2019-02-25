@@ -1,0 +1,237 @@
+@charset "utf-8";
+
+
+body{
+    font-size: 12px;
+    font-family: "微软雅黑";
+}
+.clears:after{
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+        overflow: hidden;
+        content: ".";
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #666;
+}
+    .wraper{
+        width: 1002px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+#header{
+    width: 100%;
+    background: #fff;
+    .header_f1{
+        .header_left{
+                padding: 39px 0 37px;
+                a{
+                    img{
+                        vertical-align: middle;
+                        border: 0;
+                    }
+                }
+        }
+        .header_right{
+            h3{
+                display: block;
+                color: #000;
+                font-weight: normal;
+                font-size: 100%; 
+                    }
+            .wm{
+                width: 210px;
+                margin: 30px 0 0 20px;
+                font-size: px;
+                .fl{
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+                .char{
+                    color: #999;
+                }
+            }
+            .w1{
+               width: 175px;
+               margin: 30px 0 0 20px; 
+               .char{
+                    color: #999;
+                }
+            }
+        }
+    }
+}
+input{
+    resize: none;
+    outline: 0;
+    font-family: "微软雅黑";
+}
+#main{
+    #log_form{
+       .login{
+            margin: 90px auto;
+            .log_left{
+                a{
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+            }
+            .login_right{
+                min-height: 308px;
+                width: 268px;
+                padding: 20px 41px;
+                border: 1px solid #eaeaea;
+                background-color: #fff;
+                .mt20{
+                    margin-top: 20px;
+                }
+                .pr{
+                    position: relative;
+                }
+                .f18{
+                    font-size: 18px;
+                }
+                .pa{
+                    position: absolute;
+                    }
+                .b_size{
+                    background-size: 20px 18px;
+                }
+                .log_input{
+                    .bor_1{
+                        border: 1px solid #c5cddb;
+                    }
+                    .inp_1{
+                        width: 220px;
+                        height: 35px;
+                        line-height: 35px;
+                        padding-left: 48px;   
+                    }
+                    
+                    .bg_1{
+                        left: 0;
+                        top: 3px;
+                        width: 37px;
+                        height: 31px;
+                        border-right: 1px solid #ccc;
+                        background-size: 20px 18px;
+                        background:url(../img/l-icon4.png) no-repeat center;    
+                    }
+                    
+                    .bg_2{
+                        background-size: 18px 21px;
+                        background: url(../img/l-icon5.png) no-repeat center;
+                    }
+                }
+                .mt15{
+                    margin-top: 15px;
+                    .bg_3{
+                         color: #999;
+                        background: url(../img/l-select.png) no-repeat left center;
+                        background-position: 0 0;
+                        line-height: 17px;
+                        padding-left: 26px;
+                        cursor: pointer;   
+                    }
+                }
+                .log_bg{
+                    background: url(../img/l-icon.png) no-repeat left center;
+                    padding-left: 22px;
+                }
+                .col_blue{
+                    color: #118ace;
+                }
+                .mt10{
+                    input{
+                        border: 0;
+                        cursor: pointer;
+                    }
+                    margin-top: 10px;
+                    .f18{
+                        font-size: 18px;
+                    }
+                    .col_w{
+                        color: #fff;
+                    }
+                    .bth_1{
+                        width: 100%;
+                        height: 40px;
+                        background-color: #118bce;   
+                    }
+                    
+                }
+                .center{
+                    text-align: center;  
+                    .col_blue{
+                        color: #118ace;   
+                    } 
+                }
+                .col_nine{
+                    color: #999;
+                }
+                .mt20{
+                    margin-top: 20px;
+                    .middle{
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+                    .qq{
+                        width: 18px;
+                        height: 19px;
+                        background: url(../img/qq.png) no-repeat;
+                        display: inline-block;
+                        margin: 0 11px;   
+                    }
+                    .weixin{
+                        width: 20px;
+                        height: 17px;
+                        background: url(../img/wechat.png) no-repeat;
+                        margin: 0 11px;
+                        display: inline-block;   
+                    }
+                }
+                
+            }  
+       } 
+    }
+}
+#footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 25px 0 10px 0px;
+    .foot_info{
+        padding: 25px 0 10px 0px;
+    }
+    .center{
+        text-align: center;
+        .f14{
+            font-size: 14px;
+            a{
+                padding: 0 20px;
+            }
+            span{
+                color: #bbb;
+            }
+        }
+        .log_foot_bott{
+                padding: 21px 0;
+        }
+        .col_six{
+                color: #666;
+        }
+    }
+    
+}

@@ -1,0 +1,244 @@
+@charset "utf-8";//中文字符
+
+
+$textcolor:#ffffff;
+
+li{
+    list-style-type: none;
+}
+a{
+     text-decoration: none;
+     &:hover{
+        color:#007bc7;
+    }
+}
+.clear:after{
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+            overflow: hidden;
+            content: ".";
+}
+
+body{
+    font-size: 14px;
+    line-height: 1.6rem;
+    color: #333;
+    #head{  //头部
+        #head_top{  //头部的上部分
+            width: 100%;
+            height: 44px;
+            line-height: 44px;
+            background: black;
+            
+            .wrap{
+            width: 1220px;
+            height: 44px;
+            margin:0 auto;
+            position: relative;
+            
+                .head_top_left{
+                    float: left;
+                    display: inline;
+                    &:first-child{
+                    margin-left: 0;
+                    }
+                    .li_ofa{
+                        &:hover{
+                            div{
+                                display:block;
+                                }
+                        }
+                        .pic_1{
+                            position: absolute;
+                            top: 44px;
+                            border: 1px solid #ddd;
+                            font-size: 12px;
+                            color: #000;
+                            z-index: 999;
+                            background: #fff;
+                            display: none;
+                            img{
+                                width: 89px;
+                                padding: 5px;
+                                border: 1px solid #ddd;
+                                margin: 10px;
+                                margin-bottom: 5px;
+                            }
+                        
+                        }
+                    }
+                    li{
+                    margin-left: 32px;
+                    font-size: 12px;
+                    position: relative;
+                    float: left;
+                        a{
+                           color: $textcolor;
+                        }
+                    }
+                }
+                
+                .head_top_right{
+                    float: right;
+                    display: inline;
+                        &:first-child{
+                        margin-right: 0;
+                        }
+                    li{
+                        margin-left: 32px;
+                        font-size: 12px;
+                        position: relative;
+                        float: right;
+                        a{
+                            color: $textcolor; 
+                        }
+                    }
+                    .cart{
+                        i{
+                            background: url(../img/cart.svg) no-repeat left center;
+                            width: 17px;
+                            height: 18px;
+                            margin-right: 6px;
+                            float: left;
+                            margin-top: 13px;
+                        }
+                        .num{
+                            width: 18px;
+                            height: 18px;
+                            margin-left: 4px;
+                            color: #fff;
+                            text-align: center;
+                            background-color: #ff0000;
+                            border-radius: 10px;
+                            display: inline-block;
+                            line-height: 18px;
+                            text-align: center;
+                        }
+                    }
+                }
+                    &:after{
+                        display: block;
+                        height: 0;
+                        clear: both;
+                        visibility: hidden;
+                        overflow: hidden;
+                        content: ".";
+                     }
+            }
+        }
+    }
+    
+    #head_bottm{//头部里的下部分
+        width: 100%;
+        height: 80px;
+        background-color: #FFFFFF;
+        color: #000000;
+        text-align: center;
+        line-height:80px;
+        
+        .head_bott{
+            width: 1220px;
+            margin:0 auto;
+            position: relative;
+            
+            .logo_1{
+                float: left;
+                display: inline;
+                margin-right: 42px;
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 280px;
+                        border: 36px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
+        
+        ul{
+            margin-left: 42px;
+            .sub_li1{
+                i{
+                    width: 9px;
+                    height: 6px;
+                    background: url(../img/head01.svg) no-repeat center;
+                    margin-left: 6px;
+                    display: inline-block;
+                    position: relative;
+                    top: -3px;
+                }
+            }
+            li{
+                float: left;
+                margin-right: 34px;
+                a{
+                    color: #3e3a39;
+                }
+            }
+        }
+        .head_bott_super{
+            a{
+                color: #000000;
+             }
+            margin-right: 34px;          
+            padding-top: 23px;
+            height: 32px;
+            line-height: 32px;
+            float: right;
+            display: inline;
+        }
+        .head_bott_shop{
+            a{
+                color: #000000;
+             }
+            padding-top: 23px;
+            height: 32px;
+            line-height: 32px;
+            float: right;
+            display: inline;
+            i{
+                border-left: 1px solid #b6b6b6;
+                border-right: 1px solid #eee;
+                height: 12px;
+                display: inline-block;
+                margin: 0 9px 0 12px;
+                position: relative;
+                top: 1px;
+            }
+        }
+        .head_bott_SE{
+            padding-bottom: 2px;
+            padding-top: 28px;
+            width: 241px;
+            position: relative;
+            border-bottom: 1px solid #e9e9e9;
+            display: inline;
+            float: right;
+            form{
+                height: 22px;
+                .inp_text{
+                    font-size: 14px;
+                    color: #8f8f8f;
+                    line-height: 22px;
+                    height: 22px;
+                    width: 214px;
+                    float: left;
+                    border: none;
+
+                }
+                .submit{
+                    width: 14px;
+                    height: 22px;
+                    float: right;
+                    background: url(../img/search.svg) no-repeat center;
+                    border: none;
+                }                
+            }
+
+        }
+    }
+}
+

@@ -1,0 +1,225 @@
+
+ol ul li{
+    list-style: none;
+}
+.wraper{
+    width: 1220px;
+    margin: 0 auto;
+    position: relative;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clears:after{
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+        overflow: hidden;
+        content: ".";
+}
+.img{
+    vertical-align: middle;
+    border: 0px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: .3s;
+}
+.cart{
+    padding: 51px 0 117px;
+    background: #f5f5f5;
+    .discount{
+        padding: 0 24px 0 25px;
+        height: 46px;
+        line-height: 46px;
+        background: #fff;
+        .h2_font{
+            font-size: 14px;
+            color: #333;
+            float: left;
+            line-height: 46px;
+            font-weight: normal;
+            img{
+                width: 28px;
+                margin-right: 18px;
+                height: 20px;
+                
+            }
+        }
+        .cart_discount{
+            float: right;
+            width: 98px;
+            height: 26px;
+            text-align: center;
+            line-height: 26px;
+            display: block;
+            margin-top: 10px;
+            font-size: 12px;
+            color: #ef1f3d;
+            background: url(../img/cart2.svg) no-repeat center;
+            .cart_span1{
+                width: 6px;
+                background: url(../img/cart02.svg) no-repeat center;
+                margin-left: 5px;
+                display: inline-block;
+                height: 9px;
+            }
+        }
+    }
+    .cart_box{
+        .check{
+            width: 21px;
+            height: 21px;
+            cursor: pointer;
+            display: block;
+            background: url(../img/cart1.png) no-repeat center;
+            position: absolute;
+            background-size: 100%;
+            left: 0;
+            top: 0;
+        }
+        .checked{
+            background: url(../img/cart1_h.svg) no-repeat left center;
+            background-size: 100%;
+        }
+        border: 0px;
+        background: none;
+        padding: 16px 0 40px;
+        margin-top: 6px;
+        .cart_top{
+            background: #fff;
+            padding: 21px 41px 24px 29px;
+            font-size: 14px;
+            color: #333;
+            line-height: 21px;
+            margin-bottom: 1px;
+            .all_check{
+                width: 221px;
+                position: relative;
+                display: inline;
+                cursor: default;
+                span{
+                    padding-left: 43px;
+                }
+            }
+            .one{
+                width: 250px;
+                 display: inline;
+            }
+            .two{
+                width: 143px;
+                text-align: center;
+                 display: inline;
+            }
+            .three{
+                width: 185px;
+                text-align: center;
+                 display: inline;
+            }
+            .four{
+                width: 106px;
+                text-align: center;
+                display: inline;
+            }
+            .five{
+                width: 121px;
+                text-align: center;
+                display: inline;
+            }
+            .six{
+                width: 90px;
+                text-align: center;
+                margin-left: 30px;
+                display: inline;
+            }
+        }
+        
+    }
+    .cart_bot{
+            background: #fff;
+            font-size: 14px;
+            color: #333;
+            .cart_bot_w{
+                    padding: 13px 29px 13px 30px;
+                    width: 1161px;
+                    line-height: 45px;
+                    height: 45px;
+                    margin: 0 auto;
+                    .all_check{
+                        position: relative;
+                        width: 110px;
+                        display: inline;
+                        .check{
+                                width: 21px;
+                                height: 21px;
+                                cursor: pointer;
+                                display: block;
+                                background: url(../img/cart1.png) no-repeat center;
+                                background-size: 100%;
+                                position: absolute;
+                                left: 0;
+                                top: 12px;
+                        }
+                        .checked{
+                                background: url(../img/cart1_h.svg) no-repeat center;
+                                background-size: 100%;
+                        }
+                        span{
+                                padding-left: 43px;
+                                display: inline;
+                        }
+                    }
+                    .all_dele{
+                            margin-right: 36px;
+                            transition: color 0.3s;
+                            cursor: pointer;
+                            display: inline;
+                    }
+                    .cart_shopp{
+                            margin-right: 47px;
+                            color: #333;
+                            transition: color 0.3s;
+                    }
+                    .pitch{
+                            width: 395px;
+                            display: inline;
+                            span{
+                                color: #ff0000;
+                            }
+                    }
+                    .price{
+                            height: 45px;
+                            line-height: 45px;
+                            display: inline;
+                        .cart_span2{
+                            position: relative;
+                            top: -3px;
+                        }
+                        .span4{
+                                font-size: 26px;
+                                line-height: 45px;
+                                height: 45px;
+                                display: inline-block;
+                                color: #ff0000;
+                        }
+                    }
+                    .links{
+                        width: 147px;
+                        height: 45px;
+                        text-align: center;
+                        line-height: 45px;
+                        background: #ff0000;
+                        color: #fff;
+                        font-size: 20px;
+                        cursor: pointer;
+                        display: inline;
+                    }
+                    
+            }
+    }
+}
